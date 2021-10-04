@@ -1,1 +1,26 @@
-/* font-family: 'Kumbh Sans', sans-serif; */
+:root {
+    /* text primary colors */
+
+    --veryDarkDesaturedBlue: hsl(238, 29%, 16%);
+    --solfRed: hsl(14, 99%, 65%);
+    
+    /* gradient primary colors 
+    background-gradient*/
+
+    --softViolet: hsl(273, 75%, 66%);
+    --softBlue: hsl(240, 73%, 65%);
+
+    /* neutral text */
+
+    --veryDarkGrayishBlue: hsl(237, 12%, 33%);
+    --darkGrayishBlue: hsl(240, 6%, 50%);
+
+    /* dividers */
+
+    --lightGrayishBlue: hsl(240, 5%, 91%);
+}
+
+body {
+    font-size: 0,75rem;
+    font-family: 'Kumbh Sans', sans-serif;
+}
