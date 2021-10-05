@@ -41,6 +41,7 @@ p {
     background-color: #fff;
     border-radius: 20px;
     width: 375px;
+    padding-bottom: 1em;
 }
 
 .main-hero {
@@ -71,4 +72,39 @@ p {
     text-align: center;
     font-weight: 700;
     font-size: 2.3rem;
+}
+
+.faq-container {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--lightGrayishBlue);
+    margin-bottom: 1.5em;
+    padding-bottom: .5em;
+}
+
+.faq-container img {
+    height: 10px;
+    padding: .5em;
+}
+
+.bolder-color {
+    font-weight: 700;
+}
+
+.question:hover,
+img {
+    color: var(--solfRed);
+    cursor: pointer;
+}
+
+.hidden-answer {
+    display: none;
+}
+
+.show-answer {
+    display: block;
+}
+
+.faq-container img {
+    /* transform: rotate(180deg); */
 }
