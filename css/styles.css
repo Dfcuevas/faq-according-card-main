@@ -85,14 +85,14 @@ p {
 .faq-container img {
     height: 10px;
     padding: .5em;
+    /* transform: rotate(180deg); */
 }
 
 .bolder-color {
     font-weight: 700;
 }
 
-.question:hover,
-img {
+.question:hover {
     color: var(--solfRed);
     cursor: pointer;
 }
@@ -105,6 +105,10 @@ img {
     display: block;
 }
 
-/* .faq-container img {
-    /* transform: rotate(180deg); */
-} */
+.arrow-img {
+    cursor: pointer;
+}
+
+.rotate-arrow {
+    transform: rotate(180deg);
+}
