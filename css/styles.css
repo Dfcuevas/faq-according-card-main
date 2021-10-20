@@ -112,3 +112,59 @@ p {
 .rotate-arrow {
     transform: rotate(180deg);
 }
+
+.img-hidden {
+    display: none;
+}
+
+@media screen and (min-width: 1440px) {
+    .main {
+        display: flex;
+        width: 60%;
+        align-items: center;
+        justify-content: space-around;
+        padding: 3rem;
+        overflow: hidden;
+    }
+
+    .main-hero {
+        position: relative;
+        width: 50%;
+        height: auto;
+    }
+
+    .main-hero img {
+        position: relative;
+        top: 0;
+        left: 25%;
+        transform: translateX(-50%);
+    }
+
+    .main-hero::before {
+        content: url('../images/bg-pattern-desktop.svg');
+        position: absolute;
+        top: -288px;
+        left: -383px;
+        transform: scale(.5);
+    }
+
+    .main::after {
+        content: url('../images/illustration-box-desktop.svg');
+        position: absolute;
+        top: 425px;
+        left: 157px;
+
+    }
+
+    .main-faq {
+        width: 50%;
+    }
+
+    .img-hidden {
+        display: block;
+    }
+
+    .img-mobile {
+        display: none;
+    }
+}
